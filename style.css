@@ -2,3 +2,6 @@ body {
     background-color: lightblue;
     text-align: center;
 }
+hr {
+    border: solid black 2px;
+}
