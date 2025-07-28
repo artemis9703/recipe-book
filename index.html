@@ -16,28 +16,13 @@
     <a-text value="Recipe Book" text-align="center" color="black" width="2.1" position="-0.275 0.9 -2.5"></a-text>
     <a-box class="seasoning" color="white" position="-3 1.5 -1.5" height="1.5" rotation="0 -30"></a-box>
     <a-box class="breakfast" color="white" position="3 1.5 -1.5" height="1.5" rotation="0 30"></a-box>
+        <a-entity id="drop buttton" geometry="primitive: plane; width: 1; height: 0.25" material="color: blue" position="2.5 1.5 -1.25" rotation="0 -60" text="value: Breakfast; align: center; color: white" class="clickable"></a-entity>
+        <a-entity id="drop-options" visible="false">
+
+        </a-entity>
     <a-box class="snack" color="white" position="-3 1.5 1.5" height="1.5" rotation="0 30"></a-box>
     <a-box class="dinner" color="white" position="3 1.5 1.5" height="1.5" rotation="0 -30"></a-box>
     <a-box class="dessert" color="white" position="0 1.5 3" height="1.5"></a-box>
-    <div>
-        <label class="recipeOptions" for="RDD">Recipes</label>
-        <select name="Ways To Sort" id="RDD">
-            <option value="all">All Recipes</option>
-            <option value="Bread">Bread</option>
-            <option value="Lo Mein">Lo Mein</option>
-            <option value="Chili Oil">Chili Oil</option>
-            <option value="Grandma's Stuffing">Grandma's Stuffing</option>
-            <option value="Clam Chowder">Clam Chowder</option>
-            <option value="Pad Thai">Pad Thai</option>
-            <option value="Pretzels">Pretzels</option>
-            <option value="Chicken Rub">Chicken Rub</option>
-            <option value="Taco Seasoning">Taco Seasoning</option>
-            <option value="Cajun Seasoning">Cajun Seasoning</option>
-            <option value="Cinnamon Rolls">Cinnamon Rolls</option>
-            <option value="Donuts">Donuts</option>
-            <option value="Pecan Pie">Pecan Pie</option>
-        </select>
-    </div>
 </a-scene>
 <script src="script.js"></script>
 <hr>
